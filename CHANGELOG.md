@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.3.0
+
+* deprecation: Drop support for node < 8, electron < 1.8
+
+## v0.2.2
+
+* feat: Add support for Node 10 (for real this time...)
+
 ## v0.2.1
 
 * feat: Add support for Electron 2.0
