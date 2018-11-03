@@ -3,8 +3,8 @@ const path = require('path');
 
 // Try use handler if runtime and ABI is compatible
 try {
-  const SegfaultHandler = require('segfault-handler');
-  SegfaultHandler.registerHandler("iohook-crash.log");
+  // const SegfaultHandler = require('segfault-handler');
+  // SegfaultHandler.registerHandler("iohook-crash.log");
 } catch (e) {}
 
 const runtime = process.versions['electron'] ? 'electron' : 'node';
